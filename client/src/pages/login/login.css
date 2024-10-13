@@ -1,0 +1,51 @@
+.containerReg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: 
+    
+    linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)),
+         url("https://plantura.garden/uk/wp-content/uploads/sites/2/2022/02/growing-microgreens-indoors-1024x683.jpg?x63657") center
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+.wrapperReg{
+    width: 400px;
+    min-height:250px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 25px;
+    h2{
+        text-align: center;
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .checkLogin{
+        padding: 10px;
+        width: 70%;
+        border-radius: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        
+    }
+    button{
+        cursor: pointer;
+        width: 110px;
+        padding: 7px;
+        background-color: #83b81d;
+    }
+}

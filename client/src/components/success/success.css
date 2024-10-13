@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.background{
+   background-image: url(https://media.istockphoto.com/id/1390913387/vector/green-leaves-wave-fresh-tea-background-flying-foliage-ornament-on-white-background-beauty.jpg?s=612x612&w=0&k=20&c=Pfrcn2PzrFr-Wd3sCCw_C5btzfih-Pk_W6ZB1bnXm4c=);
+    height: 100vh;
+}
+.paymentCheck{
+    width: 400px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px gray;
+    background-color:#F8F8F8;
+    margin: 30px auto;
+    padding: 20px;
+    gap: 20px;
+    h2{
+        text-align: center;
+        font-family: "Pacifico", cursive;
+        color: #83b81d;
+    }
+}
+.resip{
+    display: flex;
+    justify-content: space-between;
+}
+.pcheck{
+    color: #83b81d;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    display: flex;
+    justify-content: space-between;  
+}
+.delivery{
+    display: flex;
+    justify-content: space-between;  
+}
+.total{
+    display: flex;
+    justify-content: space-between;  
+}
+.back{
+    width: 160px;
+    height: 25px;
+    color: white;
+    background-color: #83b81d;
+    margin: 30px auto;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.backI{
+    position: relative;
+    right: 10px;
+    top: 2px;
+}

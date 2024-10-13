@@ -1,0 +1,84 @@
+.slides{
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    margin-top: 45px;
+}
+.slideRight{
+   width: 50%;
+   img{
+    width: 65%;
+    height: 420px;
+   }
+}
+.slideLeft{
+    width: 30%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+      font-size: 32px;
+      color: #333;
+    }
+}
+.btnLeft{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 25px;
+    position: absolute;
+    top: 400px;
+    border-radius: 50%;
+    border: 1px solid green;
+    cursor: pointer;
+}
+.btnRight{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 25px;
+    position: absolute;
+    top: 400px;
+    border-radius: 50%;
+    border: 1px solid green;  
+    cursor: pointer;
+}
+.dots{
+    margin-top: 10px;
+    display: flex;
+   gap: 20px;
+    justify-content: center;
+    
+}
+@media (max-width: 768px){
+    .slides{
+        flex-wrap: wrap;
+        gap: 30px;
+        .slideLeft{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            h2{
+                font-size: 22px;
+                margin-top: 30px;
+            }
+        }
+        .slideRight{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            img{
+              width: 70%;
+              height: 250px;
+            }
+        }
+    }
+    .btnLeft,.btnRight{
+       width: 30px;
+       height: 30px;
+    }
+}

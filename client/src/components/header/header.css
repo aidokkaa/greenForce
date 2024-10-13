@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.header{
+    background-color: #83b81d;
+    width: 100%;
+    padding: 30px 0 30px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Open Sans", sans-serif;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-size: 34px;
+    color: white;
+}
+.divMenu{
+    display: flex;
+    gap: 70px;
+    font-size: 17px;
+    margin-top: 21px;
+}
+.menuItem{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.burger{
+    display: none;
+}
+ .menu{
+    display: flex;
+    gap:50px;
+ }
+
+ .menu span{
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+ }
+.logout{
+    position: relative;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+    }
+ .menu,.logout{
+    display: none;
+ }
+ .menuItem {
+    display: none;
+ }
+ 
+    .burger{
+        display: block;
+     margin-top: 9px;
+     color: white;
+     cursor: pointer;
+     font-size: 22px;
+    }
+    .burgerMenu{
+        position: fixed;
+        cursor: pointer;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        height: 100vh;
+        background-color: #83b81d;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        gap: 30px;
+        font-size: 20px;
+        align-items: center;
+        z-index: 1;
+        transition: left 0.3s ease; 
+        .close{
+            position: absolute;
+            top: 2px;
+            left: 15px;
+            cursor: pointer;
+        }       
+    }
+    .menuItem {
+        gap: 20px; 
+        font-size: 15px;
+    }
+    .logo {
+        font-size: 28px; 
+    }
+    .bSpan{
+        color: white;
+    }
+    .whiteCircle{
+        position: relative;
+        bottom: 35px;
+        left: 15px;
+        width: 20px;
+        height: 20px;
+        color: green;
+        font-weight: bold;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: white;
+    }
+}

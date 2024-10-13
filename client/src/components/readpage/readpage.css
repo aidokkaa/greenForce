@@ -1,0 +1,26 @@
+.readingDiv{
+    padding: 50px 0;
+    background-color: #f9f9fa;
+}
+
+.readTitle{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+}
+.readText{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Montserrat", sans-serif;  
+}
+@media (max-width: 768px){
+    .readingDiv{
+        margin-top: 100px;
+    }
+}
+.readText{
+    margin-top: 20px;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Montserrat';
+}
+.section {
+    opacity: 0; 
+    transform: translateX(-100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .section2{
+    opacity: 0; 
+    transform: translateX(100%);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .section.visible {
+    opacity: 1; 
+    transform: translateX(0); 
+  }
+  
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+.section-padding{
+    padding: 50px 0;
+    min-height: 70vh;
+}
+.icons{
+    width: fit-content;
+    display: flex;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 90px;
+    gap: 40px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.aboutContainer{
+    width: 100%;
+    min-height: 250px;
+    background-color: #f9f9fa;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutWrap{
+    display: flex;
+    width: 70%;
+    gap: 60px;
+}
+.aboutRight img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+.aboutLeft{
+    h1{
+        font-family: "Montserrat", sans-serif;
+        color: #333;
+        font-weight: 400;
+        margin-top: 50px;
+        line-height: 50px;
+    }
+    p{
+        font-family: "Montserrat", sans-serif;
+        color: #333;
+        font-weight: 300; 
+        cursor: pointer;
+    }
+    .btnLeft{
+        width: 145px;
+        padding: 8px;
+        height: 22px;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: #83b81d;
+        text-align: center;
+        color: white;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+@media (max-width: 768px) {
+    .aboutWrap{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .aboutRight{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .aboutRight img{
+        width: 200px;
+        height: 200px;
+    }
+    .aboutLeft h1{
+        font-size: 21px;
+    }
+}

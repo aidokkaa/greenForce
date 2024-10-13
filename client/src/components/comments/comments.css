@@ -1,0 +1,55 @@
+.commentsDiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cIcon{
+    color: #83b81d;
+    width: 230px;
+
+}.commentIcon{
+    h3{
+        color: #333;
+        text-align: center;
+    }
+}
+.li{
+    list-style-type: none;
+}
+.liFlex{
+    display: flex;
+}
+strong{
+    margin-bottom: 15px;
+    display: block;
+}
+.commentsWrap{
+    margin-top: 30px;
+    width: 500px;
+    border-radius: 7px;
+    min-height: 150px;
+    border: 1px solid #83b81d;
+    padding: 10px;
+
+}
+.textArea{
+    margin-top: 50px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.textArea:focus{
+    border-color: #83b81d;
+    box-shadow: 2px 2px 5px 2px #83b81d ;
+}
+.commBtn{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 140px;
+    padding: 15px;
+    font-size: 14px;
+}
